@@ -70,8 +70,21 @@ mod = Extension('RTIMU',
                 extra_compile_args = ['-std=c++0x'],
 #                define_macros = [("HAL_QUIET", None)]
                 )
+vs = {'major': 'SET(RTIMULIB_VERSION_MAJOR',
+      'minor': 'SET(RTIMULIB_VERSION_PATCH',
+      'patch': 'SET(RTIMULIB_VERSION_MINOR'}
+version = {}
+for v in vs:
+    version[v] = '0'
+
+for line in open('../../RTIMULibVersion.txt'):
+    for v in vs:
+        if vs[v] in line:
+            version[v] = line.split(vs[v])[-1].strip(' )\n')
+
+print('version', version)
 
 setup (name = 'RTIMULib',
-       version = '8.0.0',
+       version = version['major'] + '.' + version['minor'] + '.' + version['patch'],
        description = 'richards-tech IMU Sensor Fusion Library',
        ext_modules = [mod])
