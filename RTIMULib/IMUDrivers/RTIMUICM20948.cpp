@@ -587,8 +587,8 @@ bool RTIMUICM20948::IMURead()
         RTMath::convertToVector(p+6,  gyro, m_gyroScale, true);
         RTMath::convertToVector(p+12, compass, .6/4, false);
 
-        if(fabs(gyro.x()) > 3 || fabs(gyro.y()) > 3 || fabs(gyro.z()) > 3)
-            printf("AAAHAHA %f %f %f %d %d\n", gyro.x(), gyro.y(), gyro.z(), i, count);
+        //if(fabs(gyro.x()) > 3 || fabs(gyro.y()) > 3 || fabs(gyro.z()) > 3)
+        //  printf("AAAHAHA %f %f %f %d %d\n", gyro.x(), gyro.y(), gyro.z(), i, count);
 
         accel_t += accel;
         gyro_t += gyro;
@@ -601,17 +601,25 @@ bool RTIMUICM20948::IMURead()
         p += ICM20948_FIFO_CHUNK_SIZE;
     }
 
-    if(compass_count == 0)
+    if(compass_count != count) {
+        printf("ICM20948 bad data %d %d\n", compass_count, count);
         return false;
+    }
 
     // average samples
     for(int i=0; i<3; i++) {
         m_imuData.accel.setData(i, accel_t.data(i)/count);
         m_imuData.gyro.setData(i, gyro_t.data(i)/count);
-        m_imuData.compass.setData(i, compass_t.data(i)/compass_count);
-    }
-    //  sort out gyro axes
+        RTFLOAT compassi = compass_t.data(i)/compass_count;
+        if(fabsf(compassi) > 1000) {
+            printf("ICM20948 compass out of range %f %d %d %d\n", compassi, i, compass_count, count);
+            return false;
+        }
 
+        m_imuData.compass.setData(i, compassi);
+    }
+
+    //  sort out gyro axes
     // x fwd y right z down
     m_imuData.gyro.setX(m_imuData.gyro.x());
     m_imuData.gyro.setY(-m_imuData.gyro.y());
