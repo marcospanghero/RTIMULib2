@@ -587,8 +587,8 @@ bool RTIMUICM20948::IMURead()
         RTMath::convertToVector(p+6,  gyro, m_gyroScale, true);
         RTMath::convertToVector(p+12, compass, .6/4, false);
 
-        if(fabs(gyro.x()) > 3 || fabs(gyro.y()) > 3 || fabs(gyro.z()) > 3)
-            printf("AAAHAHA %f %f %f %d %d\n", gyro.x(), gyro.y(), gyro.z(), i, count);
+        //if(fabs(gyro.x()) > 3 || fabs(gyro.y()) > 3 || fabs(gyro.z()) > 3)
+        //printf("AAAHAHA %f %f %f %d %d\n", gyro.x(), gyro.y(), gyro.z(), i, count);
 
         accel_t += accel;
         gyro_t += gyro;
