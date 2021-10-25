@@ -580,7 +580,7 @@ bool RTIMUICM20948::IMURead()
     RTVector3 accel_t, gyro_t, compass_t;
     unsigned char *p = fifoData;
 
-    int compass_count = 0;
+    unsigned int compass_count = 0;
     for(uint8_t i=0; i<count; i++) {
         RTVector3 accel, gyro, compass;
         RTMath::convertToVector(p,    accel, m_accelScale, true);

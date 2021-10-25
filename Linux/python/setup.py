@@ -71,8 +71,8 @@ mod = Extension('RTIMU',
 #                define_macros = [("HAL_QUIET", None)]
                 )
 vs = {'major': 'SET(RTIMULIB_VERSION_MAJOR',
-      'minor': 'SET(RTIMULIB_VERSION_PATCH',
-      'patch': 'SET(RTIMULIB_VERSION_MINOR'}
+      'minor': 'SET(RTIMULIB_VERSION_MINOR',
+      'patch': 'SET(RTIMULIB_VERSION_PATCH'}
 version = {}
 for v in vs:
     version[v] = '0'
