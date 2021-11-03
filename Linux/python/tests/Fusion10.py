@@ -44,7 +44,7 @@ if (not imu.IMUInit()):
     print("IMU Init Failed")
     sys.exit(1)
 else:
-    print("IMU Init Succeeded");
+    print("IMU Init Succeeded")
 
 # this is a good time to set any fusion parameters
 

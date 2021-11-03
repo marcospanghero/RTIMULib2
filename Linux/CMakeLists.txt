@@ -48,6 +48,8 @@ OPTION(BUILD_DRIVE10 "Build RTIMULibDrive10" ON)
 OPTION(BUILD_DRIVE11 "Build RTIMULibDrive11" ON)
 OPTION(BUILD_CAL "Build RTIMULibCal" ON)
 OPTION(BUILD_DEMO "Build RTIMULibDemo" ON)
+OPTION(BUILD_WASP "Build WASPDriver" ON)
+
 CMAKE_DEPENDENT_OPTION(BUILD_DEMOGL "Build RTIMULibDemoGL" ON
                        "BUILD_GL" OFF)
 
@@ -58,6 +60,8 @@ ADD_FEATURE_INFO(RTIMULibDrive11 BUILD_DRIVE11 "App that shows to use  pressure/
 ADD_FEATURE_INFO(RTIMULibCal BUILD_CAL "Command line calibration tool for the magnetometers and accelerometers.")
 ADD_FEATURE_INFO(RTIMULibDemo BUILD_DEMO "GUI app that displays the fused IMU data in real-time")
 ADD_FEATURE_INFO(RTIMULibDemoGL BUILD_DEMOGL "RTIMULibDemo with OpenGL visualization")
+ADD_FEATURE_INFO(WASPDriver BUILD_WASP "WASP driver for node attitude detection")
+
 
 INCLUDE_DIRECTORIES(${CMAKE_CURRENT_SOURCE_DIR}/../RTIMULib)
 
@@ -93,6 +97,10 @@ ENDIF(BUILD_DEMO)
 IF(BUILD_DEMOGL)
     ADD_SUBDIRECTORY(RTIMULibDemoGL)
 ENDIF(BUILD_DEMOGL)
+
+IF(BUILD_WASP)
+    ADD_SUBDIRECTORY(WASPDriver)
+ENDIF(BUILD_WASP)
 
 feature_summary(WHAT ENABLED_FEATURES DESCRIPTION "Enabled features:")
 

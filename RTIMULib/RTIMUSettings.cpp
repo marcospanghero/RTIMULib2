@@ -39,6 +39,7 @@
 #include "IMUDrivers/RTIMULSM6DS33LIS3MDL.h"
 
 #include "IMUDrivers/RTPressureBMP180.h"
+#include "IMUDrivers/RTPressureBMP388.h"
 #include "IMUDrivers/RTPressureLPS25H.h"
 
 #include "IMUDrivers/RTHumidityHTS221.h"
@@ -484,6 +485,16 @@ bool RTIMUSettings::discoverPressure(int& pressureType, unsigned char& pressureA
                 pressureType = RTPRESSURE_TYPE_BMP180;
                 pressureAddress = BMP180_ADDRESS;
                 HAL_INFO("Detected BMP180\n");
+                return true;
+            }
+        }
+
+
+        if (HALRead(BMP388_ADDRESS, BMP388_REG_ID, 1, &result, "")) {
+            if (result == BMP388_ID) {
+                pressureType = RTPRESSURE_TYPE_BMP388;
+                pressureAddress = BMP388_ADDRESS;
+                HAL_INFO("Detected BMP388\n");
                 return true;
             }
         }
