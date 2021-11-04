@@ -55,9 +55,32 @@ public:
 
 private:
 
+    bool read_calibrations();
+
+    RTFLOAT compensate_temperature(uint32_t rt);
+    RTFLOAT compensate_pressure(uint32_t rp);
+
     unsigned char m_pressureAddr;                           // I2C address
     RTFLOAT m_pressure;                                     // the current pressure
-    RTFLOAT m_temperature;                                  // the current temperature
+    RTFLOAT m_temperature; 
+    
+    RTFLOAT T_fine;
+
+    uint32_t calibration_temp_1;
+    uint32_t calibration_temp_2;
+    uint32_t calibration_temp_3;
+    
+    uint32_t calibration_press_1;
+    uint32_t calibration_press_2;
+    uint32_t calibration_press_3;
+    uint32_t calibration_press_4;
+    uint32_t calibration_press_5;
+    uint32_t calibration_press_6;
+    uint32_t calibration_press_7;
+    uint32_t calibration_press_8;
+    uint32_t calibration_press_9;
+    uint32_t calibration_press_10;
+    uint32_t calibration_press_11;
 
     int m_state;
     bool m_validReadings;

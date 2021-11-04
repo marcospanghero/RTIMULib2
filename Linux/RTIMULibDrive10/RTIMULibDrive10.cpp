@@ -90,10 +90,10 @@ int main()
             if ((now - displayTimer) > 100000) {
                 printf("Sample rate %d: %s\n", sampleRate, RTMath::displayDegrees("", imuData.fusionPose));
 
-                if (pressure != NULL) {
+                //if (pressure != NULL) {
                     printf("Pressure: %4.1f, height above sea level: %4.1f, temperature: %4.1f\n",
                            imuData.pressure, RTMath::convertPressureToHeight(imuData.pressure), imuData.temperature);
-                }
+                //}
 
                 fflush(stdout);
                 displayTimer = now;

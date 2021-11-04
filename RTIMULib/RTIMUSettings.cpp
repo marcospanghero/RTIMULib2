@@ -1180,6 +1180,7 @@ bool RTIMUSettings::saveSettings()
     setComment("  3 = LPS25H");
     setComment("  4 = MS5611");
     setComment("  5 = MS5637");
+    setComment("  6 = BMP388");
 
     setValue(RTIMULIB_PRESSURE_TYPE, m_pressureType);
 

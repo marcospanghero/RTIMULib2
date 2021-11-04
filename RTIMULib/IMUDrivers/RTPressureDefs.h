@@ -64,14 +64,63 @@
 
 //	Register map
 
-#define BMP388_REG_AC1              0xaa
-#define BMP388_REG_SCO              0xf4
-#define BMP388_REG_DATA0            0x04
-#define BMP388_REG_DATA1            0x05
-#define BMP388_REG_DATA2            0x06
-#define BMP388_REG_DATA3            0x07
-#define BMP388_REG_DATA4            0x08
-#define BMP388_REG_DATA5            0x09
+#define BMP388_REG_ADD_ERR          0x02
+#define BMP388_REG_VAL_FATAL_ERR    0x01
+#define BMP388_REG_VAL_CMD_ERR      0x02
+#define BMP388_REG_VAL_CONF_ERR     0x04
+
+#define BMP388_REG_ADD_STATUS       0x03
+#define BMP388_REG_VAL_CMD_RDY      0x10
+#define BMP388_REG_VAL_DRDY_PRESS   0x20
+#define BMP388_REG_VAL_DRDY_TEMP    0x40
+
+#define BMP388_REG_ADD_CMD          0x7E
+#define BMP388_REG_VAL_EXTMODE_EN   0x34
+#define BMP388_REG_VAL_FIFO_FLUSH   0xB0
+#define BMP388_REG_VAL_SOFT_RESET   0xB6
+
+#define BMP388_REG_ADD_PWR_CTRL     0x1B
+#define BMP388_REG_VAL_PRESS_EN     0x01
+#define BMP388_REG_VAL_TEMP_EN      0x02
+#define BMP388_REG_VAL_NORMAL_MODE  0x30
+
+#define BMP388_REG_ADD_PRESS_XLSB   0x04
+#define BMP388_REG_ADD_PRESS_LSB    0x05
+#define BMP388_REG_ADD_PRESS_MSB    0x06
+#define BMP388_REG_ADD_TEMP_XLSB    0x07
+#define BMP388_REG_ADD_TEMP_LSB     0x08
+#define BMP388_REG_ADD_TEMP_MSB     0x09
+
+
+#define BMP388_REG_ADD_PRESS_XLSB   0x04
+#define BMP388_REG_ADD_PRESS_LSB    0x05
+#define BMP388_REG_ADD_PRESS_MSB    0x06
+#define BMP388_REG_ADD_TEMP_XLSB    0x07
+#define BMP388_REG_ADD_TEMP_LSB     0x08
+#define BMP388_REG_ADD_TEMP_MSB     0x09
+
+#define BMP388_REG_ADD_T1_LSB       0x31
+#define BMP388_REG_ADD_T1_MSB       0x32
+#define BMP388_REG_ADD_T2_LSB       0x33
+#define BMP388_REG_ADD_T2_MSB       0x34
+#define BMP388_REG_ADD_T3           0x35
+#define BMP388_REG_ADD_P1_LSB       0x36
+#define BMP388_REG_ADD_P1_MSB       0x37
+#define BMP388_REG_ADD_P2_LSB       0x38
+#define BMP388_REG_ADD_P2_MSB       0x39
+#define BMP388_REG_ADD_P3           0x3A
+#define BMP388_REG_ADD_P4           0x3B
+#define BMP388_REG_ADD_P5_LSB       0x3C
+#define BMP388_REG_ADD_P5_MSB       0x3D
+#define BMP388_REG_ADD_P6_LSB       0x3E
+#define BMP388_REG_ADD_P6_MSB       0x3F
+#define BMP388_REG_ADD_P7           0x40
+#define BMP388_REG_ADD_P8           0x41
+#define BMP388_REG_ADD_P9_LSB       0x42
+#define BMP388_REG_ADD_P9_MSB       0x43
+#define BMP388_REG_ADD_P10          0x44
+#define BMP388_REG_ADD_P11          0x45
+
 
 //----------------------------------------------------------
 //

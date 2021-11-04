@@ -25,6 +25,7 @@
 #include "RTPressure.h"
 
 #include "RTPressureBMP180.h"
+#include "RTPressureBMP388.h"
 #include "RTPressureLPS25H.h"
 #include "RTPressureMS5611.h"
 #include "RTPressureMS5637.h"
@@ -34,6 +35,9 @@ RTPressure *RTPressure::createPressure(RTIMUSettings *settings)
     switch (settings->m_pressureType) {
     case RTPRESSURE_TYPE_BMP180:
         return new RTPressureBMP180(settings);
+
+    case RTPRESSURE_TYPE_BMP388:
+        return new RTPressureBMP388(settings);
 
     case RTPRESSURE_TYPE_LPS25H:
         return new RTPressureLPS25H(settings);

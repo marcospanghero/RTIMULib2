@@ -71,14 +71,6 @@ imu.setCompassEnable(True)
 poll_interval = imu.IMUGetPollInterval()
 print("Recommended Poll Interval: %dmS\n" % poll_interval)
 
-# Setup bandpass filter
-fs = 1.0/(poll_interval*1e-3)
-lowcut = 5.0
-highcut = 40.0
-order=1
-
-bandpass = butter_bandpass(lowcut, highcut, fs, order=order)
-
 if imu.IMURead():
     timestamp_p = imu.getIMUData()["timestamp"] 
     accelerations_p = np.array(imu.getIMUData()["accel"])
@@ -94,6 +86,7 @@ f = open("data-imu.csv", "w", encoding="utf-8")
 #read first timestamp 
 imu.IMURead()
 timestamp_p = imu.getIMUData()["timestamp"]
+f.write("timestamp,ax,ay,az,qs,qx,qy,qz,amag\n")
 
 try:
     while True:
@@ -112,6 +105,8 @@ try:
             #Library is quaternion scalar first, we need scalar last -> hack
             fusionQPose = fusionQPose[1:] + fusionQPose[:1]          
             ax, ay, az = imu.getAccel()
+
+            print("x: {:3f} y: {:3f} x: {:3f} s: {:3f}".format(fusionQPose[0], fusionQPose[1], fusionQPose[2], fusionQPose[3]))
 
 
             fusionPose = imu.getMeasuredPose()
@@ -141,6 +136,8 @@ try:
             #Integrate again to obtain displacement
             position = position + velocity * poll_interval
             print("Position:", position)
+
+            f.write("{:8f},{:8f},{:8f},{:8f},{:8f},{:8f},{:8f},{:8f},{:8f}\n".format(timestamp, ax, ay, az, fusionQPose[0], fusionQPose[1], fusionQPose[2], fusionQPose[3], amag))
 
             timestamp_p = timestamp
             end = time.clock() 
