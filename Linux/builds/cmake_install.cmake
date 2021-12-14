@@ -45,7 +45,6 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   include("/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDrive11/cmake_install.cmake")
   include("/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibCal/cmake_install.cmake")
   include("/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo/cmake_install.cmake")
-  include("/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/WASPDriver/cmake_install.cmake")
 
 endif()
 

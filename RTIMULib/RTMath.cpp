@@ -22,6 +22,8 @@
 //  SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
 #include "RTMath.h"
+#include "time.h"
+
 #ifdef WIN32
 #include <qdatetime.h>
 #endif
@@ -36,10 +38,12 @@ uint64_t RTMath::currentUSecsSinceEpoch()
 #include <qdatetime.h>
     return QDateTime::currentMSecsSinceEpoch();
 #else
-    struct timeval tv;
+    //struct timeval tv;
+    struct timespec tv;
 
-    gettimeofday(&tv, NULL);
-    return (uint64_t)tv.tv_sec * 1000000 + (uint64_t)tv.tv_usec;
+    //gettimeofday(&tv, NULL);
+    clock_gettime(CLOCK_REALTIME, &tv);
+    return (uint64_t)tv.tv_sec * 1000000000 + (uint64_t)tv.tv_nsec;
 #endif
 }
 

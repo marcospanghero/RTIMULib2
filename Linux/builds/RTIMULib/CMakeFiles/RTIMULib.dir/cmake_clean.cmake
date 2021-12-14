@@ -20,7 +20,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUNull.cpp.o"
   "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressure.cpp.o"
   "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP180.cpp.o"
-  "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.o"
   "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o"
   "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o"
   "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o"

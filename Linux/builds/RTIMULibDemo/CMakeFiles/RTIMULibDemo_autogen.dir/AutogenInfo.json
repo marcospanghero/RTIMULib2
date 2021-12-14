@@ -1,0 +1,107 @@
+{
+	"BUILD_DIR" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo/RTIMULibDemo_autogen",
+	"CMAKE_BINARY_DIR" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo",
+	"CMAKE_EXECUTABLE" : "/usr/bin/cmake",
+	"CMAKE_SOURCE_DIR" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux",
+	"HEADERS" : 
+	[
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/AccelCalDlg.h",
+			"Mu",
+			"EWIEGA46WW/moc_AccelCalDlg.cpp"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/IMUThread.h",
+			"Mu",
+			"EWIEGA46WW/moc_IMUThread.cpp"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/MagCalDlg.h",
+			"Mu",
+			"EWIEGA46WW/moc_MagCalDlg.cpp"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/RTIMULibDemo.h",
+			"Mu",
+			"EWIEGA46WW/moc_RTIMULibDemo.cpp"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/SelectFusionDlg.h",
+			"Mu",
+			"EWIEGA46WW/moc_SelectFusionDlg.cpp"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/SelectIMUDlg.h",
+			"Mu",
+			"EWIEGA46WW/moc_SelectIMUDlg.cpp"
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo/RTIMULibDemo_autogen/include",
+	"MOC_COMPILATION_FILE" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo/RTIMULibDemo_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "QT_CORE_LIB", "QT_GUI_LIB", "QT_NO_DEBUG" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"/home/pi/wasp-p16/platform/RTIMULib2/RTIMULib",
+		"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo",
+		"/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo",
+		"/usr/include/qt4",
+		"/usr/include/qt4/QtGui",
+		"/usr/include/qt4/QtCore"
+	],
+	"MOC_MACRO_NAMES" : [ "Q_OBJECT", "Q_GADGET", "Q_NAMESPACE" ],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : true,
+	"MOC_PREDEFS_CMD" : [],
+	"MOC_PREDEFS_FILE" : "",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 1,
+	"PARSE_CACHE_FILE" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo/CMakeFiles/RTIMULibDemo_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "/usr/lib/arm-linux-gnueabihf/qt4/bin/moc",
+	"QT_UIC_EXECUTABLE" : "",
+	"QT_VERSION_MAJOR" : 4,
+	"SETTINGS_FILE" : "/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULibDemo/CMakeFiles/RTIMULibDemo_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/AccelCalDlg.cpp",
+			"Mu"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/IMUThread.cpp",
+			"Mu"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/MagCalDlg.cpp",
+			"Mu"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/RTIMULibDemo.cpp",
+			"Mu"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/SelectFusionDlg.cpp",
+			"Mu"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/SelectIMUDlg.cpp",
+			"Mu"
+		],
+		[
+			"/home/pi/wasp-p16/platform/RTIMULib2/Linux/RTIMULibDemo/main.cpp",
+			"Mu"
+		]
+	],
+	"VERBOSITY" : 0
+}

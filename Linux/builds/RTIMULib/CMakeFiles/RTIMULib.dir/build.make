@@ -382,22 +382,9 @@ RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP180.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP180.cpp.s"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureBMP180.cpp -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP180.cpp.s
 
-RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
-RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureBMP388.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.o"
-	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureBMP388.cpp
-
-RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.i"
-	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureBMP388.cpp > CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.i
-
-RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.s"
-	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureBMP388.cpp -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.s
-
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureLPS25H.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureLPS25H.cpp
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.i: cmake_force
@@ -410,7 +397,7 @@ RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.s: cmake_force
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureMS5611.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureMS5611.cpp
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.i: cmake_force
@@ -423,7 +410,7 @@ RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.s: cmake_force
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureMS5637.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTPressureMS5637.cpp
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.i: cmake_force
@@ -436,7 +423,7 @@ RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.s: cmake_force
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidity.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidity.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTHumidity.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidity.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidity.cpp.o"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidity.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTHumidity.cpp
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidity.cpp.i: cmake_force
@@ -449,7 +436,7 @@ RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidity.cpp.s: cmake_force
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTS221.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTS221.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTHumidityHTS221.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTS221.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTS221.cpp.o"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTS221.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTHumidityHTS221.cpp
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTS221.cpp.i: cmake_force
@@ -462,7 +449,7 @@ RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTS221.cpp.s: cmake_force
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTU21D.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTU21D.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTHumidityHTU21D.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTU21D.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTU21D.cpp.o"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTU21D.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTHumidityHTU21D.cpp
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTU21D.cpp.i: cmake_force
@@ -475,7 +462,7 @@ RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHumidityHTU21D.cpp.s: cmake_force
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUHMC5883LADXL345.cpp.o: RTIMULib/CMakeFiles/RTIMULib.dir/flags.make
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUHMC5883LADXL345.cpp.o: /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTIMUHMC5883LADXL345.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUHMC5883LADXL345.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUHMC5883LADXL345.cpp.o"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUHMC5883LADXL345.cpp.o -c /home/pi/wasp-p16/platform/RTIMULib2/RTIMULib/IMUDrivers/RTIMUHMC5883LADXL345.cpp
 
 RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUHMC5883LADXL345.cpp.i: cmake_force
@@ -513,7 +500,6 @@ RTIMULib_OBJECTS = \
 "CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUNull.cpp.o" \
 "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressure.cpp.o" \
 "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP180.cpp.o" \
-"CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.o" \
 "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o" \
 "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o" \
 "CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o" \
@@ -550,7 +536,6 @@ RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMU
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUNull.cpp.o
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressure.cpp.o
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP180.cpp.o
-RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureBMP388.cpp.o
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureLPS25H.cpp.o
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5611.cpp.o
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTPressureMS5637.cpp.o
@@ -560,7 +545,7 @@ RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTHum
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/IMUDrivers/RTIMUHMC5883LADXL345.cpp.o
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/build.make
 RTIMULib/libRTIMULib.so.8.1.0: RTIMULib/CMakeFiles/RTIMULib.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Linking CXX shared library libRTIMULib.so"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Linking CXX shared library libRTIMULib.so"
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/RTIMULib.dir/link.txt --verbose=$(VERBOSE)
 	cd /home/pi/wasp-p16/platform/RTIMULib2/Linux/builds/RTIMULib && $(CMAKE_COMMAND) -E cmake_symlink_library libRTIMULib.so.8.1.0 libRTIMULib.so.8 libRTIMULib.so
 
