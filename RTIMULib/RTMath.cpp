@@ -43,7 +43,7 @@ uint64_t RTMath::currentUSecsSinceEpoch()
 
     //gettimeofday(&tv, NULL);
     clock_gettime(CLOCK_REALTIME, &tv);
-    return (uint64_t)tv.tv_sec * 1000000000 + (uint64_t)tv.tv_nsec;
+    return (uint64_t)tv.tv_sec * 1000000 + (uint64_t)tv.tv_nsec/1000;
 #endif
 }
 
